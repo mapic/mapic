@@ -1087,7 +1087,8 @@ mapic_up () {
     _test_config
 
     # start mapic stack
-    STACK=$MAPIC_CONFIG_FOLDER/stack.yml
+    STACK=$MAPIC_CONFIG_FOLDER/stack.$MAPIC_DOMAIN.yml
+    echo "Spinning up stack $STACK"
     docker stack deploy --compose-file=$STACK mapic 
 
     # feedback
