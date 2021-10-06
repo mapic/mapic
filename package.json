@@ -30,6 +30,6 @@
     "yamljs": "^0.3.0"
   },
   "dependencies": {
-    "easy-table": "^1.1.1"
+    "easy-table": "^1.2.0"
   }
 }
