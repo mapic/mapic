@@ -25,7 +25,7 @@
   "homepage": "https://mapic.io",
   "devDependencies": {
     "async": "^3.1.0",
-    "aws-sdk": "^2.510.0",
+    "aws-sdk": "^2.814.0",
     "lodash": "^4.17.15",
     "yamljs": "^0.3.0"
   },
