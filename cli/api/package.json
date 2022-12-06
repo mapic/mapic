@@ -29,6 +29,6 @@
     "request": "^2.81.0",
     "socks": "^2.2.0",
     "strip-json-comments": "^2.0.1",
-    "supertest": "^1.2.0"
+    "supertest": "^6.3.2"
   }
 }
