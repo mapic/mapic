@@ -105,6 +105,45 @@ mapic stop
 
 ```
 
+### Troubleshoot most common issues
+Ensure services are up, and look through logs. 
+
+```bash
+# ensure all services are up
+mapic status
+
+# show logs, look for errors
+mapic logs engine [mile | postgis | redis | mongo | nginx]
+```
+
+#### Restart Mapic
+```bash
+# stop services
+mapic stop
+
+# wait until all services are stopped (1 min)
+mapic status
+
+# restart services
+mapic start
+
+```
+
+### Update SSL certificate
+```bash
+# stop services
+mapic stop
+
+# wait until all services are stopped (1 min)
+mapic status
+
+# create ssl certificates
+mapic ssl create
+
+# restart services
+mapic start
+```
+
 ### Interact with the Mapic API
 Commands for interacting with any running Mapic server's API. 
 ```bash
