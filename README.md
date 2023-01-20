@@ -26,7 +26,6 @@ git clone https://github.com/mapic/mapic.git
 cd mapic/cli 
 sudo bash mapic-cli.sh
 
-
 ```
 
 ### Install Mapic
@@ -104,9 +103,6 @@ mapic logs postgis
 # stop mapic server
 mapic stop
 
-# scale
-mapic scale mile 3 
-
 ```
 
 ### Interact with the Mapic API
@@ -120,9 +116,6 @@ mapic api user create
 
 # promote to superuser
 mapic api user super 
-
-# upload data
-mapic api upload
 
 # see help for more commands and options
 mapic api help
