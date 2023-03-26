@@ -1090,6 +1090,7 @@ mapic_up () {
     STACK=$MAPIC_CONFIG_FOLDER/stack.$MAPIC_DOMAIN.yml
     echo "Spinning up stack $STACK"
     docker stack deploy --compose-file=$STACK mapic 
+    # docker-compose -f $STACK up
 
     # feedback
     echo "Mapic is up."
